@@ -19,7 +19,7 @@ connectDB();
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://society-maintenance-system.vercel.app", // update this after Vercel deploy if the URL differs
+  "https://society-maintenance-system-lyart.vercel.app",
 ];
 
 app.use(
