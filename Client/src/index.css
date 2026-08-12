@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(180deg, #f5f6fa 0%, #eef1f8 100%);
+  min-height: 100vh;
+}
+
+.card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card.shadow-sm:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.table-hover tbody tr {
+  transition: background-color 0.1s ease;
+}
+
+.navbar-brand span {
+  font-weight: 600;
+}
+
+a.text-decoration-none:hover {
+  opacity: 0.85;
+}
