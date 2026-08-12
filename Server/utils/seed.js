@@ -48,7 +48,7 @@ const seed = async () => {
 
   console.log("Creating admin...");
   const admin = await User.create({
-    name: "Rajesh Kulkarni",
+    name: "Ishan Kashyap",
     email: "admin@test.com",
     password: "admin123",
     role: "admin",
