@@ -3,7 +3,7 @@ import axios from "axios";
 // In dev, this points at your local backend. Before deploying, change this
 // to your live Render backend URL (or better, read from an env variable —
 // see the README deployment section).
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://society-maintenance-system-7put.onrender.com/api";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
