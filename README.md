@@ -4,6 +4,7 @@ A full-stack web application that digitizes the day-to-day maintenance workflow 
 
 **Live App:** https://society-maintenance-system-lyart.vercel.app
 **Live API:** https://society-maintenance-system-7put.onrender.com
+**Demo Video:** https://youtu.be/7KYf8egT17k
 
 > Note: the backend is hosted on Render's free tier, which sleeps after periods of inactivity. The first request after a period of inactivity may take 30–60 seconds to respond while the server wakes up.
 
@@ -13,7 +14,6 @@ A full-stack web application that digitizes the day-to-day maintenance workflow 
 
 | Role | Email | Password |
 |---|---|---|
-| Admin | admin@test.com | admin123 |
 | Resident | resident1@test.com | resident123 |
 | Resident (alt) | resident2@test.com ... resident10@test.com | resident123 |
 
@@ -175,6 +175,7 @@ Frontend runs at `http://localhost:5173`.
 
 ## Documentation
 
+- [Demo Video](https://youtu.be/7KYf8egT17k)
 - [ER Diagram & Database Schema](./docs/ER-diagram.md)
 - [API Documentation](./docs/API-docs.md)
 - [Test Cases & Sample Data](./docs/test-cases.md)
@@ -185,4 +186,4 @@ Frontend runs at `http://localhost:5173`.
 ## Author
 
 Ishan Kashyap — Final Year Computer Engineering, SPPU Pune
-Built for the my Full Stack Developer technical project.
+Built for the Full Stack Developer technical project.
